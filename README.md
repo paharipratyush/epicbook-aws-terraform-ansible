@@ -17,7 +17,7 @@ This project separates the infrastructure from the application logic. 
 1. **Tier 1 (Web Server):** An Ubuntu EC2 instance residing in a Public Subnet, serving the Node.js application via an **Nginx Reverse Proxy**.
 2. **Tier 2 (Database):** A secure AWS RDS MySQL instance residing in a Private Subnet, completely isolated from direct internet access.
 
-### 🚀 The Tech Stack
+## 🚀 The Tech Stack
 * **Cloud Provider:** AWS
 * **Infrastructure Provisioning:** Terraform
 * **Configuration Management:** Ansible (via Ansible Roles)
