@@ -1,0 +1,10 @@
+---
+- name: Update apt cache and install baseline packages
+  ansible.builtin.apt:
+    name:
+      - git
+      - curl
+      - unzip
+      - mysql-client
+    state: present
+    update_cache: yes
