@@ -58,8 +58,9 @@ To run this project seamlessly on your local machine, you must have the followin
 * **[Ansible](https://docs.ansible.com/ansible/latest/installation_guide/intro_installation.html):** Installed on your system. You can install it globally via your package manager (e.g., `sudo apt install ansible`) or via `pipx` (`pipx install ansible`).
 
   (Note: If you are using standard `pip`, it is highly recommended to install it inside an active Python virtual environment).
-* **SSH Key Pair:** You must have an ED25519 SSH key generated on your local machine. Terraform will automatically upload this key to AWS for passwordless access. 
-  * If you don't have one, generate it by running: `ssh-keygen -t ed25519 -C "your_email@example.com"` (press Enter to accept default locations).
+* **SSH Key Pair:** You must have an ED25519 SSH key generated on your local machine. Terraform will automatically upload this key to AWS for passwordless access.
+  
+   * If you don't have one, generate it by running: `ssh-keygen -t ed25519 -C "your_email@example.com"` (press Enter to accept default locations).
 
 ---
 
